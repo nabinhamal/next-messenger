@@ -24,7 +24,7 @@ const AuthForm = () => {
 
   useEffect(() => {
     if (session?.status === "authenticated") {
-      router.push("/users");
+      router.push('/conversations')
     }
   }, [session?.status, router]);
 
@@ -109,7 +109,7 @@ const AuthForm = () => {
             type="email"
             id="email"
             label="Email Address"
-            placeholder="johndoe@email.com"
+            placeholder="email@email.com"
             register={register}
             errors={errors}
             disabled={isLoading}
