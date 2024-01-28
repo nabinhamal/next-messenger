@@ -54,7 +54,7 @@ const Form = () => {
           maxFileSize: 4000000, // 4 mb
         }}
         onUpload={handleUpload}
-        uploadPreset={vsnqxpb}
+        uploadPreset="vsnqxpb"
       >
         <HiPhoto size={30} className="text-sky-500" />
       </CldUploadButton>
