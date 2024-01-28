@@ -54,7 +54,7 @@ const Form = () => {
           maxFileSize: 4000000, // 4 mb
         }}
         onUpload={handleUpload}
-        uploadPreset={process.env.NEXT_PUBLIC_CLOUDINARY_CLOUD_PRESET}
+        uploadPreset={vsnqxpb}
       >
         <HiPhoto size={30} className="text-sky-500" />
       </CldUploadButton>
